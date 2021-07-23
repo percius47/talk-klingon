@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+body{
+    font-family: 'MedievalSharp', cursive;
+    background-color: #BFDBFE;
+    margin: 0;
+    height: auto;
+}
+body h1{
+    text-align: center;
+    font-size: 3rem;
+    
+}
+.about h2, p{
+
+    display: block;
+    color: #1E3A8A;
+    text-align: center;
+    margin-top: -20px;
+    max-width: 500px;
+    margin: auto;
+    padding:10px;
+  border-bottom: 1px solid #1E3A8A;
+
+}
+
+h3{
+    margin-left: 25%;
+}
+.about{
+    padding:2rem;
+    background-color: white;
+}
+
+.nav{
+    height: 15vh;
+  
+    background-color: #1E3A8A;
+    color: #BFDBFE;
+    padding-top: 1vh;
+
+  
+}
+#txt-input{
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 0.5rem;
+    height: 10vh;
+    padding: 1rem;
+    width: 50%;
+    display: block;
+    
+}
+#output{
+    border: none;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    height: 10vh;
+    padding: 1rem;
+    width: 50%;
+    border-radius: 0.5rem;
+    display: block;
+    margin-bottom: 10vh;
+
+}
+
+#btn-translate{
+
+    margin-left: 25%;
+    margin-top: 20px;
+    padding: 1rem;
+    color: white;
+    background-color: #1E3A8A;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+
+
+    
+}
+
+.footer{
+    display: block;
+    height: 20vh;
+    background-color: #1E3A8A;
+    border-top: white;
+    padding:1rem;
+   
+    color: white;
+    position: relative;
+}
+.footer small{
+  position: absolute;
+   padding: 1rem;
+  bottom: 0;
+  right: 0;
+}
